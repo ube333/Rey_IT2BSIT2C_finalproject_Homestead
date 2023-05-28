@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<head>
+	<title> Home Stead </title>
+	<meta charset="UTF-8">
+	<meta charset="metadata">
+	<meta name="Final Project" content="For educartional purposes only">
+	<meta name="discription" content="game, gallery, books">
+	<meta name="keywords" content="HTML, CSS, Javascript, PHP">
+	<meta name="file_name" content="Mariquit_IT2BSIT2C_finalproject_Homestead">
+	<meta name="author">
+		<content>June Charles Mariquit</content>
+		<content>Rubylyn Rey</content>
+		<content>John Leo Suamer</content>
+	</meta>
+	<meta name="date">
+		<content date_start>May 15, 2023</content>
+		<content date_finish>May 28, 2023</content>
+	<meta name="course/section" content="BSIT-2C">
+	<meta name="instructor" content="Mr. Romeo Labayna">
+	<meta name="subject" content="Integrative Programming and Technology">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<!-- dicription and how Homestead works -->
+<!-- nav bar section starts -->
+<nav_bar>
+	<!-- if user click home btn the system will redirect to home page -->
+	<home type="button">redirecting to home</home>
+
+	<!--if user click game  btn the system will redirect to game page -->
+	<game type="button">redirecting to game tictac toe</game>
+
+	<!-- if user click gallery btn the system will redirecting to gallery page -->
+	<gallery type="button">redirecting to gallery</gallery>
+
+	<!-- if user click book btn the system will redirecting to book pages -->
+	<book type="button">redicting to books</book>
+
+	<!-- if the user click menu btn the menu will colapse and show the admin page -->
+	<menu type="button" class="colapse">
+
+		<!-- after menu btn colapse -->
+		<admin_gallery_page type="button">
+
+			<!-- input user name and password which is username: admin pass:admin -->
+			<input class="username, password">
+
+				<!-- after the user filled the input user shall click the login btn to proceed -->
+				<login type="button">Login</login>
+
+				<!-- after login the user can upload image that will display in the gallery page after uploading -->
+				<upload_image type="images">upload</upload_image>
+
+				<!-- user can delete the user that is uploaded in the gallery using the admin page -->
+				<delete_image type="images">delete</delete_image>
+			</input>
+		</admin_gallery_page>
+	</menu>
+</nav_bar>
+<!-- nav bay section ends-->
+
+<!-- body section starts -->
+<body name="body" content="game, gallery, books">
+	<!-- home front page -->
+	<front_page>
+		<content type="images">Logo</content>
+		<content type="text">design qoutes</content>
+	</front_page>
+
+	<!-- contain tictactoe game, gallery, and books -->
+	<container type="section" id="pricing">
+		<content class="box">
+
+			<!-- tic tac toe game consist of 2player -->
+			<game type="game">
+				<input class="text" name="player 1">1st player</input>
+				<input class="text" name="player 2">2st player</input>
+				<start>game start</start>
+			</game>
+			<!-- game ends -->
+
+			<!-- user can view image using the gallery and can add and delete images using the admin panel -->
+			<gallery type="images">
+
+				<!--view images in gallery that uploaded in admin panel-->
+				<images name="gallery">view images</images>
+
+				<!--admin panel can add and delete photos from gallery-->
+				<admin_gallery_page type="button">
+
+					<!-- input user name and password which is username: admin pass:admin -->
+					<input class="username, password">
+						
+						<!-- after the user filled the input user shall click the login btn to proceed -->
+						<login type="button">Login</login>
+
+						<!-- after login the user can upload image that will display in the gallery page after uploading -->
+						<upload_image type="images">upload</upload_image>
+
+						<!-- user can delete the user that is uploaded in the gallery using the admin page -->
+						<delete_image type="images">delete</delete_image>
+					</input>
+				</admin_gallery_page>
+			</gallery>
+			<!-- gallery ends -->
+
+			<!-- user can read books in the book section -->
+			<books type="books"> 
+				<!-- read readable books -->
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_1 type="box" name="Untold" author=" Geir Westrul" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name="Untold">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_1>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_2 type="box" name=" The Idiom Archipelago" author=" RJ Holmquist" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name=" The Idiom Archipelago">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_2>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_3 type="box" name="To Plant A Garden" author="  Scott George" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name="To Plant A Garden">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_3>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_4 type="box" name="Strawberry Jam Under The Sea" author="  Aeris WalkerStrawberry Jam Under The Sea" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name="Strawberry Jam Under The Sea">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_4>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_5 type="box" name=" Lilies" author=" Geir Westrul" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name=" Lilies">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_5>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_6 type="box" name="Decomposition Sits With You" author=" Fabi M" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name="Decomposition Sits With You">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_6>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_7 type="box" name="The First Idol" author="Tom Bombadil" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name="The First Idol">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_7>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_8 type="box" name="Mitzee’s Moment" author="Michelle Oliver" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name="Mitzee’s Moment">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_8>
+
+				<!-- books need a verification to confirm user is not a robot-->
+				<book_9 type="box" name="Jesus And Jockeys" author=" Lynda Williams" class="books" id="books">
+					<input type="text" name="verification" class="text" id="verification">
+						<read type="text" class="book" name="Jesus And Jockeys">start reading</read>
+						<back type="button" name="logout"> redirecting to verification </back>
+					</input>
+					<back type="button" name="back" id="back">redirecting to book page</back>
+				</book_9>
+			</books>
+			<!-- books ends -->
+		</content>
+	</container>
+</body>
+<!-- body section ends -->
+
+<!-- footer section starts -->
+<footer>
+	<!-- this location are fictional idea only-->
+	<location type="text" id="location">
+		<content class="icon">Outerspcae mars</content>
+		<content class="icon">Mogpog Marinduque</content>
+		<content class="icon">Gasan Marinduque</content>
+		<content class="icon">Sta Cruz Marinduque</content>
+	</location>
+
+	<!-- this follows are fictional idea only -->
+	<follow_us type="text"  id="follow">
+		<content class="icon">Google</content>
+		<content class="icon">Facebook</content>
+		<content class="icon">Twitter</content>
+		<content class="icon">Instagram</content>
+	</follow_us>
+
+	<!-- craeted by Charles, Rubylyn and leo -->
+	<created_by type="text" class="text">
+		<content>BSIT 2C</content>
+	</created_by>
+</footer>
+<!--footer section ends -->
+
